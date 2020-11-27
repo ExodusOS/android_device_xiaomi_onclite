@@ -51,6 +51,9 @@ debug.hwui.skia_atrace_enabled=false
 # VSync
 debug.cpurend.vsync=false
 
+# Force triple frame buffers
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=1048575
