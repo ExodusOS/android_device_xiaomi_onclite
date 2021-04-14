@@ -454,7 +454,8 @@ PRODUCT_PACKAGES += \
 
 # Tethering
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    CarrierConfigOverlay
 
 # Trust HAL
 PRODUCT_PACKAGES += \
