@@ -134,6 +134,9 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 # THERMAL
 sys.thermal.data.path=/data/vendor/thermal/
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # WFD
 persist.debug.wfd.enable=1
 
