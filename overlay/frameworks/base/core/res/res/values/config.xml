@@ -488,4 +488,6 @@
         rotations as the default behavior. -->
    <bool name="config_allowAllRotations">true</bool>
 
+    <!-- Whether device supports gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
 </resources>
