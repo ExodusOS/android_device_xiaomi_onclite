@@ -26,10 +26,11 @@ PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
+EXODUS_MAINTAINER := melles1991
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ3A.210805.001.A1/7474174 release-keys
+BUILD_FINGERPRINT := xiaomi/onc/onc:10/QKQ1.191008.001/V12.5.3.0.QFLCNXM:user/release-keys
+BUILD_DESCRIPTION := onc-user 10 QKQ1.191008.001 V12.5.3.0.QFLCNXM release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
