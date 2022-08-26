@@ -57,6 +57,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 ro.opengles.version=196610
 debug.sf.predict_hwc_composition_strategy=0
 ro.surface_flinger.uclamp.min=130
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # VSYNC
 debug.cpurend.vsync=false
