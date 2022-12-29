@@ -8,6 +8,9 @@ allow system_app sysfs_headphonegain:file rw_file_perms;
 allow system_app sysfs_micgain:file rw_file_perms;
 allow system_app sysfs_earpiecegain:file rw_file_perms;
 allow system_app sysfs_thermal:file rw_file_perms;
+allow system_app system_suspend_control_internal_service:service_manager { find };
+allow system_app system_suspend_control_service:service_manager { find };
+allow system_app tracingproxy_service:service_manager { find };
 
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop);
